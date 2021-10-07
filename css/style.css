@@ -15,6 +15,11 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.container-jumbo {
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 /* <--- HEADER ---> */
 
@@ -68,7 +73,11 @@ nav li a{
 
 
 
+/* <--- BOTTON ---> */
 
+.btn{
+    
+}
 
 /* <--- DEBUG JUMBOTRON ---> */
 
@@ -78,6 +87,38 @@ nav li a{
     background-color: #b9cfe5;
     border: 1px solid black;
 }
+
+
+#jumbotron .text-jumbo{
+    height: 20px;
+    background-color: tomato;
+    
+}
+
+
+#jumbotron .text-jumbo span{
+    display: block;
+}
+
+#jumbotron .img-jumbo{
+    height: 20px;
+    background-color: aqua;
+}
+
+.text-jumbo, .img-jumbo{
+    float: left;
+    width: calc(100% / 2);
+}
+
+.img-jumbo img{
+    width: 70%;
+}
+
+#jumbotron h1{
+    font-size: 50px;
+}
+
+
 
 
 
