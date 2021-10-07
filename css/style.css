@@ -20,20 +20,18 @@ body{
 
 header{
     height: 80px;
-    line-height: 80px;
     font-size: 12px;
+    line-height: 80px;
     }
 
 .nav-left{
     float: left;
-    
 }
 
 .nav-left img{
     width: 25%;
     vertical-align: middle;
     margin-left: 10px;
-    
 }
 
 .nav-right{
@@ -41,20 +39,16 @@ header{
     margin-right: 10px;
 }
 
-nav{
+nav,  nav li{
     display: inline-block;
 }
 
 nav li{
-    display: inline-block;
-    text-align: center; 
     margin: 0 10px;
-    
 }
 
 nav li a{
     text-decoration: none;
-    
 }
 
 .debug nav li a:visited{
@@ -68,6 +62,7 @@ nav li a{
 }
 
 
+/* <--- JUMBOTRON ---> */
 
 
 
@@ -75,10 +70,18 @@ nav li a{
 
 
 
+/* <--- DEBUG JUMBOTRON ---> */
+
+#jumbotron{
+    height: 500px;
+    width: 100%;
+    background-color: #b9cfe5;
+    border: 1px solid black;
+}
 
 
 
-/* <--- DEBUG ---> */
+/* <--- DEBUG HEADER ---> */
 
 /* .debug header{
     height: 80px;
