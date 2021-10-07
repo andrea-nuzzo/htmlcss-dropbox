@@ -4,3 +4,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* <--- HEADER ---> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <--- DEBUG ---> */
+
+.debug header{
+    height: 80px;
+    background-color: blue;
+    border: 1px solid black; 
+}
+
+.debug nav{
+    background-color: red;
+    border: 1px solid black; 
+}
+
+.debug li{
+    background-color: green;
+    border: 1px solid black; 
+}
+
+.debug a{
+    background-color: fuchsia;
+    border: 1px solid black; 
+}
