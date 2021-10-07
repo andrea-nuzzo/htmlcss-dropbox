@@ -20,6 +20,11 @@ body{
     margin: 0 auto;
 }
 
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+
 a {
     text-decoration: none;
 }
@@ -80,12 +85,11 @@ nav li{
     width: 100%;
     margin-top: 80px;
     background-color: #b9cfe5;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 #jumbotron .text-jumbo{
     width: 250px;
-    
 }
 
 #jumbotron .text-jumbo p{
@@ -106,7 +110,7 @@ nav li{
 
 .text-jumbo, .img-jumbo{
     float: left;
-    /* width: calc(100% / 2); */
+    /* border: 1px solid black; */
 }
 
 .img-jumbo img{
@@ -137,9 +141,12 @@ nav li{
 }
 
 
-/* <--- DEBUG JUMBOTRON ---> */
+/* <--- DEBUG SECTION ---> */
 
-
+main section:first-child{
+    margin-top: 150px;
+    font-size: 18px;
+    border: 1px solid black;
 
 
 
