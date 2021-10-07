@@ -34,17 +34,45 @@
     border: 1px solid black; 
 }
 
+.debug .nav-left{
+    float: left;
+    line-height: 80px;
+}
+
+.debug .nav-left img{
+    vertical-align: middle;
+}
+
+.debug .nav-right{
+    float: right;
+}
+
 .debug nav{
     background-color: red;
-    border: 1px solid black; 
+    border: 1px solid black;
+    display: inline-block;
+    line-height: 80px;
 }
 
-.debug li{
+.debug nav li{
     background-color: green;
-    border: 1px solid black; 
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center; 
+    margin: 0 30px;
+    
 }
 
-.debug a{
+.debug nav li a{
+    text-decoration: none;
     background-color: fuchsia;
     border: 1px solid black; 
+}
+
+.debug nav li a:visited{
+    color: inherit;
+}
+
+.debug .nav-right li:last-child a{
+    background-color: blue;
 }
