@@ -96,9 +96,9 @@ nav li{
     width: 250px;
 }
 
-#jumbotron .text-jumbo p{
+ p {
     font-size: 12px;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 #jumbotron .text-jumbo span{
@@ -119,6 +119,7 @@ nav li{
 
 .img-jumbo img{
     width: 600px;
+    margin-top: 20px;
 }
 
 #jumbotron h1{
@@ -140,9 +141,13 @@ nav li{
     
 }
 
+.white{
+    background-color: white;
+    border: 1px solid black;
+    font-size: 12px;
+}
 #jumbotron .btn{
     display: inline;
-
 }
 
 
@@ -150,6 +155,10 @@ nav li{
 
 /* <--- TITOLO MAIN E FATTURAZIONE ---> */
 
+
+main section{
+    margin-top: 100px;
+}
 main section:first-child{
     margin-top: 150px;
     font-size: 18px;
@@ -174,7 +183,7 @@ main section:first-child{
     padding: 6px;
 }
 
-/* <--- SEZIONE ENTERPRISE ---> */
+/* <--- SEZIONE COLONNE ---> */
 
 .column{
     
@@ -209,7 +218,7 @@ main section:first-child{
     color: grey;
 }
 
-.column .typology h3{
+.column .typology h3, .text-partner h3{
     font-size: 20px ;
 }
 .column .decoration{
@@ -243,11 +252,26 @@ main section:first-child{
     padding-left: 40px;
 }
 
+/* <--- SEZIONE PARTNER ---> */
+
+.partner{
+    margin-top: 100px ;
+}
+
+.img-partner img, .text-partner{
+    float: left;
+    width: calc(100% / 2);
+}
+
+.text-partner{
+    padding: 40px;
+}
+
 /* <--- DEBUG ---> */
 
-.debug main{
+/* .debug main{
  background-color: tomato;
-}
+} */
 
 /* .debug .bullet li{
     background-color: indigo;
