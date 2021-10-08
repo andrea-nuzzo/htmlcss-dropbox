@@ -148,6 +148,8 @@ nav li{
 
 /* <--- MAIN ---> */
 
+/* <--- TITOLO MAIN E FATTURAZIONE ---> */
+
 main section:first-child{
     margin-top: 150px;
     font-size: 18px;
@@ -171,6 +173,8 @@ main section:first-child{
     border: 1px solid grey;
     padding: 6px;
 }
+
+/* <--- SEZIONE ENTERPRISE ---> */
 
 .column{
     height: 650px;
@@ -198,7 +202,7 @@ main section:first-child{
     margin-bottom: 10px;
     font-size: 10px ;
 }
-.typology li:last-of-type{
+.grey{
     color: grey;
 }
 
@@ -209,9 +213,6 @@ main section:first-child{
     text-decoration: underline;
     color: #0061ff;
 }
-.offer-includes li:last-of-type{
-    color: grey;
-}
 
 .specification i{
     color: #0061ff;
@@ -221,6 +222,24 @@ main section:first-child{
     font-size: 13px;
     font-weight: 600;
 }
+
+/* <--- SEZIONE ENTERPRISE ---> */
+
+.enterprise{
+    width: 100%;
+
+}
+
+.enterprise .btn, .enterprise li:first-child{
+    display: inline-block;
+}
+
+.enterprise .btn{
+    margin-left: 400px;
+    padding-right: 40px ;
+    padding-left: 40px;
+}
+
 /* <--- DEBUG ---> */
 
 .debug main{
@@ -234,8 +253,13 @@ main section:first-child{
 
 /* .debug .column{
     background-color: lawngreen;
-    
 } */
+
+/* .debug .enterprise{
+    height: 200px;
+    background-color: lawngreen;
+} */
+
 .debug footer{
     height: 200px;
     background-color: grey;
