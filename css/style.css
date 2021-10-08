@@ -25,6 +25,10 @@ body{
     margin: 0 auto;
 }
 
+ul{
+    list-style: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -39,6 +43,7 @@ header{
     height: 80px;
     width: 100%;
     background-color: white;
+    border-bottom: 0.5px solid grey;
     font-size: 12px;
     line-height: 80px;
     position: fixed;
@@ -53,7 +58,7 @@ header{
 
 .nav-left img{
     width: 25%;
-    vertical-align: middle;
+    vertical-align: text-bottom;
     margin-left: 10px;
 }
 
@@ -82,10 +87,9 @@ nav li{
 
 #jumbotron{
     height: 450px;
-    width: 100%;
+    max-width: 1320px;
     margin-top: 80px;
     background-color: #b9cfe5;
-    border: 1px solid black;
 }
 
 #jumbotron .text-jumbo{
@@ -119,7 +123,7 @@ nav li{
 
 #jumbotron h1{
     font-size: 50px;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 
@@ -141,64 +145,51 @@ nav li{
 }
 
 
-/* <--- DEBUG SECTION ---> */
+/* <--- MAIN ---> */
 
 main section:first-child{
     margin-top: 150px;
     font-size: 18px;
     border: 1px solid black;
-
-
-
-
-
-/* <--- DEBUG HEADER ---> */
-
-/* .debug header{
-    height: 80px;
-    background-color: blue;
-    border: 1px solid black; 
 }
 
-.debug .nav-left{
-    float: left;
-    line-height: 80px;
-}
+.bullet li{
 
-.debug .nav-left img{
-    vertical-align: middle;
-}
-
-.debug .nav-right{
-    float: right;
-}
-
-.debug nav{
-    background-color: red;
-    border: 1px solid black;
+    /* debug */
+    background-color: indigo;
+    border: 1px solid red;
+    /* debug */
+    
     display: inline-block;
-    line-height: 80px;
-}
+    font-size:  13px;
 
-.debug nav li{
-    background-color: green;
-    border: 1px solid black;
-    display: inline-block;
-    text-align: center; 
-    margin: 0 30px;
     
 }
 
-.debug nav li a{
-    text-decoration: none;
-    background-color: fuchsia;
-    border: 1px solid black; 
+.bullet span{
+    border: 3px solid #0061ff;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 4px;
+    vertical-align: middle;
 }
 
-.debug nav li a:visited{
-    color: inherit;
+.bullet span:last-of-type{
+    border: 1px solid grey;
+    padding: 6px;
 }
 
-.debug .nav-right li:last-child a{
-    background-color: blue;
-} */
+
+
+
+/* <--- DEBUG ---> */
+
+.debug main{
+ background-color: tomato;
+}
+
+
+.debug footer{
+    height: 200px;
+    background-color: grey;
+   }
