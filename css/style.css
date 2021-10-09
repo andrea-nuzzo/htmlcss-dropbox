@@ -191,9 +191,13 @@ main section:first-child{
     float: left;
     width: calc(100% / 3 - 20px);
     margin-top: 30px;
+    
+}
+.choose-plan .column{
     border: 1px solid grey;
 }
-.column span:first-child{
+
+.choose-plan .column span:first-child{
     display: block;
     border-bottom: 1px solid grey;
     text-align: center;
