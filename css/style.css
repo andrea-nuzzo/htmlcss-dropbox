@@ -13,6 +13,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    min-width: 1320px;
 }
 
 
@@ -29,6 +30,10 @@ body{
 .container{
     width: 70%;
     margin: 0 auto;
+}
+
+.small{
+    width: 37%;
 }
 
 ul{
@@ -287,34 +292,112 @@ main section:first-child{
 
 /* <--- SEZIONE TEAM BUSINESS ---> */
 
+
+
 .logo-team{
-    width:100% ;
+     margin-top: 40px;
+    width:100%;
+    height: 400px;
 }
 
 .logo-small{
-    width: 20%;
+    width: 400px;
 }
+
 .logo-big{
-    width: 60%;
+    background-color: white;
+    width: 520px;
+    height: 400px;
 }
 
 .logo-small, .logo-big{
     float: left;
 }
+
 .box-img{
     float: left;
     width: calc(100% /2 );
-    height: 50%;
-
-
-    /* debug */
-    border: 1px solid black;
+    height: 200px;
+    position: relative;
 }
 
-.box-img img{
+.logo-small img{
     width: 50%;
-    margin: 0 auto;
-   object-fit: cover;
+    filter: invert(1);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.design{
+    background-color: #ABD1A0;
+    border: 10px solid #d4e8cf; 
+   }
+
+.asu{
+ background-color: #59132b;
+}
+
+.uf{
+    background-color: #3d92c9;
+}
+
+.topps{
+    background-color: #ec3b2f;
+}
+
+
+.wbr{
+    background-color:#C5292B ;
+}
+
+.hearst{
+    background-color: #B9CFE5;
+}
+
+.loney-planet{
+    background-color: #11267C ;
+}
+
+.clear-channel{
+    background-color: #F9D856;
+}
+
+
+.logo-big{
+    padding: 30px;
+}
+
+.logo-big li{
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.logo-big img{
+    width: 20%;
+}
+
+.team .small h2{
+    margin: 20px 0;
+}
+
+
+.free-trial{
+    background-color: #b9cfe5;
+    padding: 100px 0;
+}
+
+.free-text{
+    float: left;
+    width: calc(100% / 2);
+    color: #59132b;
+}
+
+.free-btn{
+    text-align: right;
 }
 
 
@@ -338,19 +421,10 @@ main section:first-child{
     background-color: lawngreen;
 } */
 
-.debug .logo-team{
-    background-color: deeppink;
-    height: 400px;
-}
 
-.logo-small{
-    background-color: deepskyblue;
-    height: 100px;
-}
-.logo-big{
-    background-color: greenyellow;
-    height: 100px;
-}
+
+
+
 
 .debug footer{
     height: 200px;
