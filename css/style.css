@@ -14,6 +14,9 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+
+
 #jumbotron, main, footer{
     max-width: 1320px;
 } 
@@ -38,6 +41,11 @@ a {
 
 a:visited{
     color: inherit;
+}
+
+body .decoration{
+    text-decoration: underline;
+    color: #0061ff;
 }
 
 /* <--- HEADER ---> */
@@ -226,10 +234,7 @@ main section:first-child{
 .column .typology h3, .text-partner h3{
     font-size: 20px ;
 }
-.column .decoration{
-    text-decoration: underline;
-    color: #0061ff;
-}
+
 
 .specification i{
     color: #0061ff;
@@ -273,11 +278,45 @@ main section:first-child{
 }
 
 
-/* <--- SEZIONE BUSINESS ---> */
+
 .business img {
     width: 100%;
     object-fit: cover;
 }
+
+
+/* <--- SEZIONE TEAM BUSINESS ---> */
+
+.logo-team{
+    width:100% ;
+}
+
+.logo-small{
+    width: 20%;
+}
+.logo-big{
+    width: 60%;
+}
+
+.logo-small, .logo-big{
+    float: left;
+}
+.box-img{
+    float: left;
+    width: calc(100% /2 );
+    height: 50%;
+
+
+    /* debug */
+    border: 1px solid black;
+}
+
+.box-img img{
+    width: 50%;
+    margin: 0 auto;
+   object-fit: cover;
+}
+
 
 /* <--- DEBUG ---> */
 
@@ -298,6 +337,20 @@ main section:first-child{
     height: 200px;
     background-color: lawngreen;
 } */
+
+.debug .logo-team{
+    background-color: deeppink;
+    height: 400px;
+}
+
+.logo-small{
+    background-color: deepskyblue;
+    height: 100px;
+}
+.logo-big{
+    background-color: greenyellow;
+    height: 100px;
+}
 
 .debug footer{
     height: 200px;
