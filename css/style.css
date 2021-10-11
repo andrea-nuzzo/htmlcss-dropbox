@@ -452,11 +452,6 @@ footer nav ul{
     padding: 50px 0; 
 }
 
-
-/* footer nav ul:first-child{
-    margin-left: 25px;
-} */
-
 footer nav li{
     display: block;
     margin: 5px;
@@ -468,7 +463,6 @@ footer nav li:first-child{
     font-weight: bold;
 }
 
-
 .bottom-footer{
     display: inline;
     font-size: 10px;
@@ -477,7 +471,7 @@ footer nav li:first-child{
     border-top: 1px solid white;
 }
 
-.bottom-footer span {
+.bottom-footer a {
     color: gray;
 }
 /* <--- DEBUG ---> */
