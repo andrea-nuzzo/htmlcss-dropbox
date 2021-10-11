@@ -411,35 +411,44 @@ main section:first-child{
 
 
 
+.faq ul {
+    margin-top: 60px;
+}
 
-.faq li{
+.faq a:visited{
+    color: inherit
+}
+.visible{
     border-top: 1px solid gray;
     padding: 30px 0;
     font-weight: bold;
 }
 
-.faq li:first-child, .faq li:nth-child(2){
-    margin-top: 40px;
-}
 
-.faq li:nth-child(8){
-    border-bottom: 1px solid gray;
-}
-.faq li:nth-child(odd){
+.visible:nth-child(odd){
     float: left;
     width: 80%;
 }
 
-.faq li:nth-child(even){
+.visible:nth-child(even){
     float: right;
     width: 20%;
     text-align: right;
     padding-right: 20px;
 }
 
-.faq li:last-child{
-    margin-bottom: 100px;
+.hidden{
+    padding-bottom: 10px;
+    transition: 2s;
+    display: none;
 }
+
+.faq li:hover + .hidden{
+    display: inline-block;
+}
+
+
+
 
 /* <--- FOOTER ---> */
 
@@ -481,87 +490,26 @@ footer nav li{
     font-weight: bold;
 }
 
-.bottom-footer{
-    font-size: 10px;
-    padding: 15px 40px 15px 0;
-    border-top: 1px solid white;
-    /* border: 1px solid red; */
-}
-
 .language{
-    color: gray;
     display: inline;
-}
-
-.language a:hover .language-menu{
-    height: 25px;
-    width: 25px;
-    /* border: 1px solid yellow; */
-}
-
-/* .language-menu{
-    display: none;
-    height: 30px;
-    color: white;
-    font-size: 10px;
-    font-weight: bold;
-    overflow: scroll;
-    border:1px solid red;
-    margin-right: 50px;
-}    */
-
-.language:hover .language-menu{
-    display: block;
+    color: gray;
+    padding-top: 30px;
+    border-top: 1px solid white
 } 
 
-.language-menu img{
-    width: 20px;
-    margin-right: 10px;
-    vertical-align: middle;
+.language a{
+    margin: 0 5px;
 }
 
-.language-menu nav li {
-    height: 30px;
-    line-height: 30px;
-    margin: 0;
-    border: 1px solid greenyellow;
+
+
+.language a:visited{
+    color: inherit;
 }
 
-/* .language{
-    border: 1px solid yellow;
-} */
+
 
 /* <--- DEBUG ---> */
 
-/* .debug main{
- background-color: tomato;
-} */
 
-/* .debug .bullet li{
-    background-color: indigo;
-    border: 1px solid red;
-} */
 
-/* .debug .column{
-    background-color: lawngreen;
-} */
-
-/* .debug .enterprise{
-    height: 200px;
-    background-color: lawngreen;
-} */
-
-/* .debug footer nav{
-    border:1px solid lawngreen;
-} */
-
-/* .debug footer .top-footer{
-    height: 300px;
-    width: 100%;
-    margin: 0 auto;
-    border:1px solid blue;
-} */
-
-/* .debug .bottom-footer {
-    border: 1px solid yellowgreen
-} */
