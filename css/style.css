@@ -59,10 +59,16 @@ header{
 }
 header a{
     text-decoration: none;
+    display: inline-block;
     
 }
 header a:visited{
     color: inherit;
+}
+
+header a:hover{
+    border-bottom: 2px solid black;
+    line-height: 75px;
 }
 
 .nav-left{
@@ -91,6 +97,7 @@ nav li{
 
 .nav-right li:last-child a{
     color: white;
+    display: inline;;
     background-color: #0061ff;
     padding: 3px 10px;
 }
