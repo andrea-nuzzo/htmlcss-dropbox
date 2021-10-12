@@ -19,7 +19,7 @@ body{
 
 
 #jumbotron, main, footer{
-    max-width: 1320px;
+    /* max-width: 1320px; */
 } 
 
 .container-jumbo {
@@ -311,19 +311,17 @@ main section:first-child{
 
 
 .logo-team{
-     margin-top: 40px;
+    margin-top: 40px;
     width:100%;
-    height: 400px;
 }
 
 .logo-small{
-    width: 400px;
+    width: 30vw;
 }
 
 .logo-big{
     background-color: white;
-    width: 520px;
-    height: 400px;
+    width: 40vw;
 }
 
 .logo-small, .logo-big{
