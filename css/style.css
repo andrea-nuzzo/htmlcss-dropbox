@@ -66,8 +66,8 @@ header a:visited{
     color: inherit;
 }
 
-header a:hover{
-    border-bottom: 2px solid black;
+.underline:hover{
+    border-bottom: 2px solid #0061ff;
     line-height: 75px;
 }
 
@@ -86,7 +86,7 @@ header a:hover{
     margin-right: 10px;
 }
 
-nav,  nav li{
+.show-menu{
     display: inline-block;
 }
 
@@ -97,7 +97,7 @@ nav li{
 
 .nav-right li:last-child a{
     color: white;
-    display: inline;;
+    display: inline;
     background-color: #0061ff;
     padding: 3px 10px;
 }
@@ -460,7 +460,7 @@ main section:first-child{
 /* <--- FOOTER ---> */
 
 footer{
-    height: 300px;
+    height: 400px;
     background-color:black;
 }
 
@@ -497,24 +497,41 @@ footer nav li{
     font-weight: bold;
 }
 
-.language{
-    display: inline;
+.bottom-footer{
     color: gray;
-    padding-top: 30px;
-    border-top: 1px solid white
 } 
 
-.language a{
-    margin: 0 5px;
-}
-
-
-
-.language a:visited{
+.bottom-footer a:visited{
     color: inherit;
 }
 
+.language{
+    display: inline;
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
 
+.language-menu img{
+    width: 25px;
+    vertical-align: middle;
+}
+
+.language-menu li{
+    margin-bottom: 5px;
+}
+
+.language-menu li:first-child{
+    margin-top: 10px;
+}
+
+
+.language-menu{
+    visibility: hidden;
+}
+
+.language:hover + .language-menu{
+    visibility: visible;
+}
 
 /* <--- DEBUG ---> */
 
