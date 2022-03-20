@@ -40,11 +40,7 @@ ul{
     list-style: none;
 }
 
-
-
-
 /* <--- HEADER ---> */
-
 header{
     height: 80px;
     width: 100%;
@@ -57,6 +53,7 @@ header{
     left: 0;
     z-index: 9999;
 }
+
 header a{
     text-decoration: none;
     display: inline-block;
@@ -94,7 +91,6 @@ nav li{
     margin: 0 10px;
 }
 
-
 .nav-right li:last-child a{
     color: white;
     display: inline;
@@ -102,9 +98,7 @@ nav li{
     padding: 3px 10px;
 }
 
-
 /* <--- JUMBOTRON ---> */
-
 #jumbotron{
     height: 450px;
     margin-top: 80px;
@@ -115,7 +109,7 @@ nav li{
     width: 250px;
 }
 
- p {
+p {
     font-size: 12px;
     margin: 20px 0;
 }
@@ -133,7 +127,6 @@ nav li{
 
 .text-jumbo, .img-jumbo{
     float: left;
-    /* border: 1px solid black; */
 }
 
 .img-jumbo img{
@@ -146,10 +139,7 @@ nav li{
     padding-top: 50px;
 }
 
-
-
 /* <--- BOTTON ---> */
-
 .btn a:visited, .white a:visited{
     color: inherit;
 }
@@ -161,13 +151,11 @@ nav li{
     text-decoration: none;
 }
 
-
 .btn {
     font-size: 14px;
     color: white;
     background-color: #0061ff;
 }
-
 
 .white{
     font-size: 12px;
@@ -176,20 +164,16 @@ nav li{
     border: 1px solid black;
 }
 
-
 #jumbotron .btn{
     display: inline;
 }
 
-
 /* <--- MAIN ---> */
-
 /* <--- TITOLO MAIN E FATTURAZIONE ---> */
-
-
 main section{
     margin-top: 100px;
 }
+
 main section:first-child{
     margin-top: 150px;
     font-size: 18px;
@@ -215,13 +199,12 @@ main section:first-child{
 }
 
 /* <--- SEZIONE COLONNE ---> */
-
 .column{
     float: left;
     width: calc(100% / 3 - 20px);
     margin-top: 30px;
-    
 }
+
 .choose-plan .column{
     border: 1px solid grey;
 }
@@ -233,9 +216,11 @@ main section:first-child{
     font-size: 13px;
     padding: 10px;
 }
+
 .height{
     min-height: 650px;
 }
+
 .central{
     margin: 30px 30px 0 30px;
 }
@@ -256,21 +241,14 @@ main section:first-child{
     font-size: 20px ;
 }
 
-
-/* .specification i{
-    color: #0061ff;
-} */
-
 .specification li:first-child{
     font-size: 13px;
     font-weight: 600;
 }
 
 /* <--- SEZIONE ENTERPRISE ---> */
-
 .enterprise{
     width: 100%;
-
 }
 
 .enterprise .btn, .enterprise li:first-child{
@@ -284,7 +262,6 @@ main section:first-child{
 }
 
 /* <--- SEZIONE PARTNER ---> */
-
 .partner{
     margin-top: 100px ;
 }
@@ -298,18 +275,12 @@ main section:first-child{
     padding: 40px;
 }
 
-
-
 .business img {
     width: 100%;
     object-fit: cover;
 }
 
-
 /* <--- SEZIONE TEAM BUSINESS ---> */
-
-
-
 .logo-team{
     margin-top: 40px;
     width:100%;
@@ -349,7 +320,7 @@ main section:first-child{
 .design{
     background-color: #ABD1A0;
     border: 10px solid #d4e8cf; 
-   }
+}
 
 .asu{
  background-color: #59132b;
@@ -362,7 +333,6 @@ main section:first-child{
 .topps{
     background-color: #ec3b2f;
 }
-
 
 .wbr{
     background-color:#C5292B ;
@@ -379,7 +349,6 @@ main section:first-child{
 .clear-channel{
     background-color: #F9D856;
 }
-
 
 .logo-big{
     padding: 30px;
@@ -398,7 +367,6 @@ main section:first-child{
     margin: 20px 0;
 }
 
-
 .free-trial{
     background-color: #b9cfe5;
     padding: 100px 0;
@@ -414,8 +382,6 @@ main section:first-child{
     text-align: right;
 }
 
-
-
 .faq ul {
     margin-top: 60px;
 }
@@ -423,12 +389,12 @@ main section:first-child{
 .faq a:visited{
     color: inherit
 }
+
 .visible{
     border-top: 1px solid gray;
     padding: 30px 0;
     font-weight: bold;
 }
-
 
 .visible:nth-child(odd){
     float: left;
@@ -452,11 +418,7 @@ main section:first-child{
     display: inline-block;
 }
 
-
-
-
 /* <--- FOOTER ---> */
-
 footer{
     height: 400px;
     background-color:black;
@@ -509,6 +471,11 @@ footer nav li{
     padding-top: 20px;
 }
 
+.language a {
+    text-decoration: none;
+    color: white;
+}
+
 .language-menu img{
     width: 25px;
     vertical-align: middle;
@@ -522,7 +489,6 @@ footer nav li{
     margin-top: 10px;
 }
 
-
 .language-menu{
     visibility: hidden;
 }
@@ -531,7 +497,7 @@ footer nav li{
     visibility: visible;
 }
 
-/* <--- DEBUG ---> */
+
 
 
 
